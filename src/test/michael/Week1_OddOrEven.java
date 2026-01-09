@@ -9,13 +9,17 @@ public class Week1_OddOrEven {
      * identify(6) -> "Even"
      */
     public static void main(String[] args) {
-
+        oddOrEven(5);
+        oddOrEven(6);
+        oddOrEven(-7);
+        oddOrEven(-8);
+        oddOrEven(0);
     }
 
-    public static void oddOrEven(int number){
-        if(number % 2 == 0){
+    public static void oddOrEven(int number) {
+        if (number % 2 == 0) {
             System.out.println(number + " is even.");
-        }else{
+        } else {
             System.out.println(number + " is odd.");
         }
     }
