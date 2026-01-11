@@ -9,4 +9,21 @@ public class Week1_OddOrEven {
      * identify(6) -> "Even"
      */
 
+    public static void main(String[] args) {
+
+        identify(12);
+        identify(9);
+        identify(-1);
+
+    }
+
+    public static void identify(int number){
+        if (number % 2 == 0){
+            System.out.println(number + " is even");
+        }else{
+            System.out.println(number + " is odd");
+        }
+    }
+
+
 }
